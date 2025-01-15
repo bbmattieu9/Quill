@@ -2,6 +2,7 @@
 /*
 
 -------------TYPOGRAPHY -------------------
+
 FONT-SIZE:
 12px / 16px / 20px / 24px / 32px / 40px / 48px / 62px
 
@@ -13,7 +14,29 @@ LINE HEIGHTS
 
 
 
+-------------COLORS -------------------
 
+PRIMARY
+BASE: #339af0; (sky blue)
+Tint: #d0ebff; (Arctic)
+Shade:#1c7ed6 (Deep Sea)
+
+
+SECONDARY
+BASE: #9775fa; (Lavender)
+Tint: #e5dbff; (Moonlight Irish)
+Shade:#7048e8 (Velvet Night)
+
+
+TERTIARY
+BASE: #ff922b; (Pumpkin)
+Tint: #ffe8cc; (Dawn)
+Shade:#f76707 (Lava)
+
+GREY
+BASE: #495057; (Slate)
+Tint: #f1f3f5; (Pebble)
+Shade:#212529 (Graphite)
 
 
 
@@ -34,19 +57,75 @@ html {
     box-sizing: border-box;
 }
 
-h1 { font-weight: 700;
-    text-align: center;
+h1, h2, h3, h4, h5 {
+    font-weight: 700;
     line-height: 1.2;
     letter-spacing: -2px;
+    font-family: 'Montserrat', sans-serif;
+    color: #212529;
+
+}
+
+h1 {
+    text-align: center;
     font-size: 62px;
 }
 
-h2 { font-weight: 700; }
+h2 {
+    text-align: center;
+    font-size: 48px;
+}
 
-h3 { font-weight: 700; }
+h3 { font-size: 40px; }
 
-h4 { font-weight: 700; }
+h4 { font-size: 32px }
 
-p  { font-weight: 400; }
+h5 { font-size: 24px }
 
-a { font-weight: 400; }
+p, a {
+    font-weight: 400;
+    line-height: 1.5;
+    font-family: 'Montserrat', sans-serif;
+    color: #495057;
+}
+
+p  { font-size: 20px; }
+
+a { text-decoration: none;
+    font-size: 16px;
+}
+
+ul {
+    list-style: none;
+}
+
+.small-text {
+    font-size: 12px;
+}
+
+.btn {
+    font-weight: 400;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 16px;
+    text-decoration: none;
+}
+
+.btn-primary:link, .btn-primary:visited {
+    color: #339af0;
+}
+
+.btn-primary:hover, .btn-primary:active {
+ color: #1c7ed6;
+}
+
+.btn-secondary:link, .btn-secondary:visited {
+    color: #9775fa;
+}
+
+.btn-secondary:hover, .btn-secondary:active {
+    color: #7048e8;
+}
+
+
+
+/*   stopped at   */
